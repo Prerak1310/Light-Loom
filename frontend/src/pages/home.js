@@ -1,169 +1,35 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { HiArrowRight } from "react-icons/hi2";
 export default function Home() {
   const navigate = useNavigate();
   return (
-    <div>
-      <div>
-        <button onClick={() => navigate("/appointments")}>
-          Book an Appointment
+    <div className="grid grid-flow-row gap-y-20 px-[15%] py-[5%]">
+      {/* appointment */}
+      <div className="grid w-full grid-flow-row items-center justify-center gap-y-6 rounded-md bg-red-300 py-[10%] text-center">
+        <div className="text-4xl">You are not alone!</div>
+        <button
+          className="group grid grid-flow-col items-center justify-center gap-x-2 rounded-2xl bg-gradient-to-tr from-cyan-600 to-lime-400 p-3 hover:ring-2 hover:ring-gray-500 hover:transition-all hover:delay-100"
+          onClick={() => navigate("/appointments")}
+        >
+          <span>Book an Appointment</span>
+          <span className="text-medium transition-all delay-100 group-hover:translate-x-2">
+            <HiArrowRight />
+          </span>
         </button>
       </div>
-      <div>
-        The "scroll-to-top" feature is an excellent addition to any website that
-        forces visitors to scroll a long distance before reaching the bottom of
-        the page, since it becomes quite annoying to return back to the top. By
-        extension, scrolling to the bottom or any particular point or section
-        allows you to navigate a user in a seamless experience for Single-Page
-        Applications (SPAs). In this hands-on guide, we will learn how to make a
-        React button that allows users to scroll to the top, bottom or any
-        section with React. We'll utilize React hooks and make this a reusable
-        component. At the conclusion of this article, we'll look at how to do it
-        with the react-scroll-to-top library.
-      </div>{" "}
-      <div>
-        The "scroll-to-top" feature is an excellent addition to any website that
-        forces visitors to scroll a long distance before reaching the bottom of
-        the page, since it becomes quite annoying to return back to the top. By
-        extension, scrolling to the bottom or any particular point or section
-        allows you to navigate a user in a seamless experience for Single-Page
-        Applications (SPAs). In this hands-on guide, we will learn how to make a
-        React button that allows users to scroll to the top, bottom or any
-        section with React. We'll utilize React hooks and make this a reusable
-        component. At the conclusion of this article, we'll look at how to do it
-        with the react-scroll-to-top library.
-      </div>
-      <div>
-        The "scroll-to-top" feature is an excellent addition to any website that
-        forces visitors to scroll a long distance before reaching the bottom of
-        the page, since it becomes quite annoying to return back to the top. By
-        extension, scrolling to the bottom or any particular point or section
-        allows you to navigate a user in a seamless experience for Single-Page
-        Applications (SPAs). In this hands-on guide, we will learn how to make a
-        React button that allows users to scroll to the top, bottom or any
-        section with React. We'll utilize React hooks and make this a reusable
-        component. At the conclusion of this article, we'll look at how to do it
-        with the react-scroll-to-top library.
-      </div>
-      <div>
-        The "scroll-to-top" feature is an excellent addition to any website that
-        forces visitors to scroll a long distance before reaching the bottom of
-        the page, since it becomes quite annoying to return back to the top. By
-        extension, scrolling to the bottom or any particular point or section
-        allows you to navigate a user in a seamless experience for Single-Page
-        Applications (SPAs). In this hands-on guide, we will learn how to make a
-        React button that allows users to scroll to the top, bottom or any
-        section with React. We'll utilize React hooks and make this a reusable
-        component. At the conclusion of this article, we'll look at how to do it
-        with the react-scroll-to-top library.
-      </div>
-      <div>
-        The "scroll-to-top" feature is an excellent addition to any website that
-        forces visitors to scroll a long distance before reaching the bottom of
-        the page, since it becomes quite annoying to return back to the top. By
-        extension, scrolling to the bottom or any particular point or section
-        allows you to navigate a user in a seamless experience for Single-Page
-        Applications (SPAs). In this hands-on guide, we will learn how to make a
-        React button that allows users to scroll to the top, bottom or any
-        section with React. We'll utilize React hooks and make this a reusable
-        component. At the conclusion of this article, we'll look at how to do it
-        with the react-scroll-to-top library.
-      </div>
-      <div>
-        The "scroll-to-top" feature is an excellent addition to any website that
-        forces visitors to scroll a long distance before reaching the bottom of
-        the page, since it becomes quite annoying to return back to the top. By
-        extension, scrolling to the bottom or any particular point or section
-        allows you to navigate a user in a seamless experience for Single-Page
-        Applications (SPAs). In this hands-on guide, we will learn how to make a
-        React button that allows users to scroll to the top, bottom or any
-        section with React. We'll utilize React hooks and make this a reusable
-        component. At the conclusion of this article, we'll look at how to do it
-        with the react-scroll-to-top library.
-      </div>{" "}
-      <div>
-        The "scroll-to-top" feature is an excellent addition to any website that
-        forces visitors to scroll a long distance before reaching the bottom of
-        the page, since it becomes quite annoying to return back to the top. By
-        extension, scrolling to the bottom or any particular point or section
-        allows you to navigate a user in a seamless experience for Single-Page
-        Applications (SPAs). In this hands-on guide, we will learn how to make a
-        React button that allows users to scroll to the top, bottom or any
-        section with React. We'll utilize React hooks and make this a reusable
-        component. At the conclusion of this article, we'll look at how to do it
-        with the react-scroll-to-top library.
-      </div>{" "}
-      <div>
-        The "scroll-to-top" feature is an excellent addition to any website that
-        forces visitors to scroll a long distance before reaching the bottom of
-        the page, since it becomes quite annoying to return back to the top. By
-        extension, scrolling to the bottom or any particular point or section
-        allows you to navigate a user in a seamless experience for Single-Page
-        Applications (SPAs). In this hands-on guide, we will learn how to make a
-        React button that allows users to scroll to the top, bottom or any
-        section with React. We'll utilize React hooks and make this a reusable
-        component. At the conclusion of this article, we'll look at how to do it
-        with the react-scroll-to-top library.
-      </div>{" "}
-      <div>
-        The "scroll-to-top" feature is an excellent addition to any website that
-        forces visitors to scroll a long distance before reaching the bottom of
-        the page, since it becomes quite annoying to return back to the top. By
-        extension, scrolling to the bottom or any particular point or section
-        allows you to navigate a user in a seamless experience for Single-Page
-        Applications (SPAs). In this hands-on guide, we will learn how to make a
-        React button that allows users to scroll to the top, bottom or any
-        section with React. We'll utilize React hooks and make this a reusable
-        component. At the conclusion of this article, we'll look at how to do it
-        with the react-scroll-to-top library.
-      </div>{" "}
-      <div>
-        The "scroll-to-top" feature is an excellent addition to any website that
-        forces visitors to scroll a long distance before reaching the bottom of
-        the page, since it becomes quite annoying to return back to the top. By
-        extension, scrolling to the bottom or any particular point or section
-        allows you to navigate a user in a seamless experience for Single-Page
-        Applications (SPAs). In this hands-on guide, we will learn how to make a
-        React button that allows users to scroll to the top, bottom or any
-        section with React. We'll utilize React hooks and make this a reusable
-        component. At the conclusion of this article, we'll look at how to do it
-        with the react-scroll-to-top library.
-      </div>{" "}
-      <div>
-        The "scroll-to-top" feature is an excellent addition to any website that
-        forces visitors to scroll a long distance before reaching the bottom of
-        the page, since it becomes quite annoying to return back to the top. By
-        extension, scrolling to the bottom or any particular point or section
-        allows you to navigate a user in a seamless experience for Single-Page
-        Applications (SPAs). In this hands-on guide, we will learn how to make a
-        React button that allows users to scroll to the top, bottom or any
-        section with React. We'll utilize React hooks and make this a reusable
-        component. At the conclusion of this article, we'll look at how to do it
-        with the react-scroll-to-top library.
-      </div>{" "}
-      <div>
-        The "scroll-to-top" feature is an excellent addition to any website that
-        forces visitors to scroll a long distance before reaching the bottom of
-        the page, since it becomes quite annoying to return back to the top. By
-        extension, scrolling to the bottom or any particular point or section
-        allows you to navigate a user in a seamless experience for Single-Page
-        Applications (SPAs). In this hands-on guide, we will learn how to make a
-        React button that allows users to scroll to the top, bottom or any
-        section with React. We'll utilize React hooks and make this a reusable
-        component. At the conclusion of this article, we'll look at how to do it
-        with the react-scroll-to-top library.
-      </div>{" "}
-      <div>
-        The "scroll-to-top" feature is an excellent addition to any website that
-        forces visitors to scroll a long distance before reaching the bottom of
-        the page, since it becomes quite annoying to return back to the top. By
-        extension, scrolling to the bottom or any particular point or section
-        allows you to navigate a user in a seamless experience for Single-Page
-        Applications (SPAs). In this hands-on guide, we will learn how to make a
-        React button that allows users to scroll to the top, bottom or any
-        section with React. We'll utilize React hooks and make this a reusable
-        component. At the conclusion of this article, we'll look at how to do it
-        with the react-scroll-to-top library.
+      {/* chat */}
+      <div className="grid w-full grid-flow-row items-center justify-center gap-y-6 rounded-md bg-red-300 py-[10%] text-center">
+        <div className="text-4xl">You are not alone!</div>
+        <button
+          className="group grid grid-flow-col items-center justify-center gap-x-2 rounded-2xl bg-gradient-to-tr from-cyan-600 to-lime-400 p-3 hover:ring-2 hover:ring-gray-500 hover:transition-all hover:delay-100"
+          onClick={() => navigate("/appointments")}
+        >
+          <span>Book an Appointment</span>
+          <span className="text-medium transition-all delay-100 group-hover:translate-x-2">
+            <HiArrowRight />
+          </span>
+        </button>
       </div>
     </div>
   );
