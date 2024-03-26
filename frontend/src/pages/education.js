@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Education() {
-  return <div>education</div>;
+  return <div className="bg-homebackground">education</div>;
 }

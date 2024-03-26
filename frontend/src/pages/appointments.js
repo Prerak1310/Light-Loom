@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function Appointments() {
-  return <div>Appointments</div>;
+  return <div className="bg-homebackground">Appointments</div>;
 }
