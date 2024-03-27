@@ -36,6 +36,12 @@ export default function Videos() {
         Depending on the type of meditation you choose, you can meditate to relax, reduce anxiety and stress, and more. Some people even use meditation to help them improve their health, such as using it to help adapt to the challenges of quitting tobacco products."
         vidurl={require("../assets/videos/meditation.mp4")}
       />
+
+      <Videocomp
+        title="STDs"
+        desc="Sexually transmitted diseases (STDs) are caused by sexually transmitted infections (STIs). They are spread mainly by sexual contact. STIs are caused by bacteria, viruses or parasites. A sexually transmitted infection may pass from person to person in blood, semen, or vaginal and other bodily fluids.Sometimes sexually transmitted infections are spread in ways other than sexual contact. For example, STIs can spread to infants during pregnancy or childbirth. STIs also can spread through blood transfusions or shared needles."
+        vidurl={require("../assets/videos/stds.mp4")}
+      />
     </div>
   );
 }

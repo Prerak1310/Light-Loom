@@ -2,23 +2,25 @@ import React from "react";
 import { IoCall } from "react-icons/io5";
 import { FaDiscord, FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
+import { useNavigate } from "react-router-dom";
 export default function Contact() {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="hidden justify-start gap-[50%] bg-[#2c2929] p-10 pl-28 text-white xl:grid xl:grid-flow-col">
         <div className>
           <div className="mb-2 text-xl">Connect</div>
           <div className="grid grid-flow-col gap-x-2">
-            <button className="text-2xl">
+            <button onClick={() => navigate("")} className="text-2xl">
               <FaInstagram />
             </button>
-            <button className="text-2xl">
+            <button onClick={() => navigate("")} className="text-2xl">
               <FaDiscord />
             </button>
-            <button className="text-2xl">
+            <button onClick={() => navigate("")} className="text-2xl">
               <FaTwitter />
             </button>
-            <button className="text-2xl">
+            <button onClick={() => navigate("")} className="text-2xl">
               <FaFacebook />
             </button>
           </div>

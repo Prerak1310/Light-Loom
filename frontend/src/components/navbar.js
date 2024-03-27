@@ -14,6 +14,12 @@ export default function Navbar() {
         <div className="grid grid-flow-col  justify-center gap-x-3 xl:grid xl:grid-flow-col xl:gap-x-4">
           <button
             className="hover:text-yellow-500 xl:text-xl"
+            onClick={() => navigate("/doctors")}
+          >
+            Experts
+          </button>
+          <button
+            className="hover:text-yellow-500 xl:text-xl"
             onClick={() => navigate("/education")}
           >
             Education
