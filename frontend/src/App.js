@@ -6,6 +6,7 @@ import Navbar from "./components/navbar.js";
 import Contact from "./components/contact.js";
 import Top from "./components/up.js";
 import Appointments from "./pages/appointments.js";
+import Videos from "./pages/videos.js";
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +15,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/education" element={<Education />} />
         <Route path="/appointments" element={<Appointments />} />
+        <Route path="/videos" element={<Videos />} />
       </Routes>
       <Top />
       <Contact />

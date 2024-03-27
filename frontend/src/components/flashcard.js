@@ -9,7 +9,7 @@ export default function Flashcard({ title, desc }) {
       </div>
       <div>
         <button className="rounded-md bg-gradient-to-r from-amber-300 to-amber-500 p-3 hover:bg-gradient-to-r hover:from-amber-400 hover:to-amber-600">
-          Read More
+          Learn More
         </button>
       </div>
     </div>
