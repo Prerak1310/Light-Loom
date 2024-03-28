@@ -19,7 +19,9 @@ export default function Doctorcomp({ imgurl, docname, post, docprofile }) {
       {/* buttons */}
       <div className="flex w-full flex-row gap-x-4">
         <button className="w-full rounded-md bg-gradient-to-r from-amber-400 via-amber-500 to-amber-400 p-2 text-center hover:bg-gradient-to-r hover:from-amber-500 hover:via-amber-600 hover:to-amber-500">
-          View Profile
+          <a href="https://www.fortishealthcare.com/doctors/dr-ajay-kaul-6323">
+            View Profile
+          </a>
         </button>
         <button
           onClick={() => navigate("/appointments")}
