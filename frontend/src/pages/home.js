@@ -20,7 +20,7 @@ export default function Home() {
           </div>
           <button
             className="group grid grid-flow-col items-center justify-center gap-x-2 rounded-2xl bg-gradient-to-tr from-cyan-600 to-lime-400 p-3 hover:ring-2 hover:ring-gray-500 hover:transition-all hover:delay-100"
-            onClick={() => navigate("/videos")}
+            onClick={() => navigate("/doctors")}
           >
             <span>Meet our Doctors</span>
             <span className="text-medium transition-all delay-100 group-hover:translate-x-2">
@@ -29,7 +29,7 @@ export default function Home() {
           </button>
         </div>
         {/* Video Lectures */}
-        <div className="mt-5 grid w-full grid-flow-row items-center justify-center gap-y-6 rounded-3xl border-2 border-black bg-white bg-opacity-40 py-[10%] text-center">
+        <div className="grid w-full grid-flow-row items-center justify-center gap-y-6 rounded-3xl border-2 border-black bg-white bg-opacity-40 py-[10%] text-center">
           <div>
             <img
               alt="alt text"
