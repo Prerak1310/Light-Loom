@@ -8,9 +8,11 @@ import Top from "./components/up.js";
 import Appointments from "./pages/appointments.js";
 import Videos from "./pages/videos.js";
 import Doctors from "./pages/doctors.js";
+import ScrollToTop from "./components/scrollToTop.js";
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route index element={<Home />} />

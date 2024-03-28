@@ -2,7 +2,7 @@ import React from "react";
 import Doctorcomp from "../components/doctorcomp";
 export default function Doctors() {
   return (
-    <div className="grid grid-cols-3 gap-x-5 bg-homebackground p-20">
+    <div className="grid grid-cols-1 gap-6 bg-homebackground p-3 xl:grid xl:grid-cols-3 xl:gap-x-5 xl:p-20">
       <Doctorcomp
         imgurl={require("../assets/doctors/anup.jpg")}
         docname="Dr. Anoop Misra"
