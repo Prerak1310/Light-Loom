@@ -40,22 +40,6 @@ export default function Education() {
         title="Burnout"
         desc="Burnout is a state of emotional, physical, and mental exhaustion caused by prolonged stress or overwork. It can manifest as feelings of cynicism, detachment, and inefficacy in one's work or personal life. Symptoms include fatigue, irritability, and reduced productivity. Preventive measures include self-care, setting boundaries, and seeking support."
       />
-
-      <Flashcard title="" desc="" />
-
-      <Flashcard title="" desc="" />
-
-      <Flashcard title="" desc="" />
-
-      <Flashcard title="" desc="" />
-
-      <Flashcard title="" desc="" />
-
-      <Flashcard title="" desc="" />
-
-      <Flashcard title="" desc="" />
-
-      <Flashcard title="" desc="" />
     </div>
   );
 }
