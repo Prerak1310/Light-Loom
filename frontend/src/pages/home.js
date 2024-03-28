@@ -51,7 +51,7 @@ export default function Home() {
           <img src={require("../assets/appointment.jpg")} alt="alt text" />
           <button
             className="group grid grid-flow-col items-center justify-center gap-x-2 rounded-2xl bg-gradient-to-tr from-cyan-600 to-lime-400 p-2 hover:ring-2 hover:ring-gray-500 hover:transition-all hover:delay-100 xl:p-3"
-            onClick={() => navigate("/doctors")}
+            onClick={() => navigate("/appointments")}
           >
             <span>Book an Appointment</span>
             <span className="text-medium transition-all delay-100 group-hover:translate-x-2">

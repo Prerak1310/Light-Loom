@@ -23,6 +23,12 @@ export default function Navbar() {
           </button>
           <button
             className="hover:text-yellow-500 xl:text-xl"
+            onClick={() => navigate("/appointments")}
+          >
+            Appointment
+          </button>
+          <button
+            className="hover:text-yellow-500 xl:text-xl"
             onClick={() => navigate("/education")}
           >
             Education
