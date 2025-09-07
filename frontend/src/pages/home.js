@@ -33,7 +33,7 @@ export default function Home() {
           <div>
             <img
               alt="alt text"
-              src="https://cdn-lhalb.nitrocdn.com/GUKyUHlVnRTXLBhjipzpWxaqlUzloLOa/assets/images/optimized/rev-299cd64/www.zellusmarketing.com/wp-content/uploads/2021/03/icon-1.6s-283px.gif"
+              src="https://cdn-icons-gif.flaticon.com/6172/6172536.gif"
             ></img>
           </div>
           <button
